@@ -1,0 +1,18 @@
+@charset "iso-8859-1";
+body { font-family: verdana; font-size: 10px; color: #ffffff; background-color:
+#533159;
+scrollbar-arrow-color: #F2EAC8;
+  scrollbar-track-color: #F2EAC8;
+  scrollbar-face-color: #F2EAC8;
+  scrollbar-highlight-color: #F2EAC8;
+  scrollbar-3dlight-color: #F2EAC8;
+  scrollbar-darkshadow-color: #F2EAC8;
+  scrollbar-shadow-color: #000000;}
+
+table { font-family: verdana; font-size:10px; color: #ffffff; }
+  
+.header { font-family:verdana; font-size:10px; color:#ffffff; background-color:#7a0056;
+border:#3e1945; border-style:solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; }
+
+a:link, a:visited, a:active {color: #f200aa; text-decoration: none;}
+a:hover      { color: #E9D586; text-decoration: none; background-color: #85508f}
