@@ -25,7 +25,7 @@ width="1000">
 -<a href="https://www.reddit.com/r/Lain/comments/frxoc4/my_teacher_send_us_job_to_do_website/" target="_blank">this post - for the banner</a><br>
 </td>
 <td width="409" valign="top">
-<div class="header">about me</div>
+<div class="header"><div id="wobble">about me</div></div>
 hewwo my name is toxic but you can call me may :3
 I go by she/her, funni linux user who loves to mess around with servers and "ethical" hacking
 as well as streaming for fun!
@@ -52,3 +52,43 @@ just finished whattever tf this is, gonna see if I can put it on a github page :
 <p>
 </body>
 </html>
+
+
+<script type="text/javascript">
+// <![CDATA[
+var speed=100; // speed of wobbling, lower is faster
+var height=3; // height of wobbling in pixels
+var alink="http://www.mf2fm.com/rv"; // page to link text to (set to ="" for no link)
+
+/****************************
+*    Wobbly Text Effect     *
+*(c) 2003-6 mf2fm web-design*
+*  http://www.mf2fm.com/rv  *
+* DON'T EDIT BELOW THIS BOX *
+****************************/
+var wobtxt, wobble, wobcnt=0;
+window.onload=function() { if (document.getElementById) {
+  var i, wobli;
+  wobble=document.getElementById("wobble");
+  wobtxt=wobble.firstChild.nodeValue;
+  while (wobble.childNodes.length) wobble.removeChild(wobble.childNodes[0]);
+  for (i=0; i<wobtxt.length; i++) {
+    wobli=document.createElement("span");
+    wobli.setAttribute("id", "wobb"+i);
+    wobli.style.position="relative";
+    wobli.appendChild(document.createTextNode(wobtxt.charAt(i)));
+    if (alink) {
+      wobli.style.cursor="pointer";
+      wobli.onclick=function() { top.location.href=alink; }
+    }
+    wobble.appendChild(wobli);
+  }
+  setInterval("wobbler()", speed);
+}}
+
+function wobbler() {
+  for (var i=0; i<wobtxt.length; i++) document.getElementById("wobb"+i).style.top=Math.round(height*Math.sin(i+wobcnt))+"px"
+  wobcnt++;
+}
+// ]]>
+</script>
