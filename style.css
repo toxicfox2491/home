@@ -1,7 +1,7 @@
 @charset "iso-8859-1";
 body { font-family: verdana; font-size: 10px; color: #ffffff; background-color:
 #533159;
-  background-image: var(--background-img);
+  background-image: url("https://sadhost.neocities.org/images/tiles/stars4.gif");
   color: var(--text-color);
   background-attachment:fixed;
 scrollbar-arrow-color: #F2EAC8;
@@ -16,9 +16,6 @@ table { font-family: verdana; font-size:10px; color: #ffffff; }
   
 .header { font-family:verdana; font-size:10px; color:#ffffff; background-color:#7a0056;
 border:#3e1945; border-style:solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; }
-:root {
-  --background-img:url('https://sadhost.neocities.org/images/tiles/stars4.gif');
-}
 a:link, a:visited, a:active {color: #f200aa; text-decoration: none;}
 a:hover      { color: #E9D586; text-decoration: none; background-color: #85508f}
 
