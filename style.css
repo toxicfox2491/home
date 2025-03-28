@@ -14,7 +14,7 @@ scrollbar-arrow-color: #F2EAC8;
 
 table { font-family: verdana; font-size:14px; color: #ffffff; }
   
-.header { font-family:verdana; font-size:10px; color:#ffffff; background-color:#7a0056;
+.header { font-family:verdana; font-size:15px; color:#ffffff; background-color:#7a0056;
 border:#3e1945; border-style:solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; }
 a:link, a:visited, a:active {color: #f200aa; text-decoration: none;}
 a:hover      { color: #E9D586; text-decoration: none; background-color: #85508f}
